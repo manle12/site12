@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* First div */
+        .header {
+            background-color: white;
+            height: 50px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-items {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-items li {
+            margin: 0 15px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            cursor: pointer;
+        }
+
+        /* Second div */
+        .content {
+            
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .container h1, .container h2, .container h3 {
+            background-color: blue;
+            color: white;
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .quote{
+background-color: grey; 
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+height:300px;
+margin:50px;
+}
+
+        /* Specific container dimensions */
+        .container:nth-child(1) { width: 200px; height: 250px; }
+        .container:nth-child(2) { width: 250px; height: 280px; }
+        .container:nth-child(3) { width: 220px; height: 370px; }
+        .container:nth-child(4) { width: 300px; height: 300px; }
+        .container:nth-child(5) { width: 180px; height: 240px; }
+        .container:nth-child(6) { width: 260px; height: 390px; }
+        .container:nth-child(7) { width: 230px; height: 360px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo-title">
+            <div class="logo"></div>
+            <div class="title" style="text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 60px #00f;color:gold;font-size:25px;"><i>WEKelea</i></div>
+        </div>
+        <ul class="nav-items">
+            <li>Competent</li>
+            <li>Accountable</li>
+            <li>Trusted</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="container">
+           
+            <h2>Sunday 26/01/2025</h2>
+            <h3 style="font-size:10px;">Valladolid vs Real Madrid over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">PSG vs Stade Reims BTS <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Branco vs Cianorte Fc over 1.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Retro Fc vs Jaguar BTS <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Barretos Sp vs Jabaquara under 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+
+          
+        </div>
+        <div class="container">
+            
+           <h2>Monday 27/01/2025</h2>
+            <h3 style="font-size:10px;">Alaves vs Celta BTS <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Genoa vs Ac Monza over 1.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#FF0000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></h3>
+            <h3 style="font-size:10px;">Cadiz vs Mirandes over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+           
+        </div>
+        <div class="container">
+           <h2>Tuesday 28/01/2025</h2>
+            <h3 style="font-size:10px;">Tolima vs Pasto over 1.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Tauro Fc vs Panama over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Laguna Women vs Juarez Women BTS <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#FF0000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></h3>
+            <h3 style="font-size:10px;">Humble Lions vs Molynes over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+        </div>
+        <div class="container">
+          <h2>Wednesday 29/01/2025</h2>
+            <h3 style="font-size:10px;">----- vs ----- </h3>
+            <h3 style="font-size:10px;">----- vs ----- </h3>
+            <h3 style="font-size:10px;">----- vs ----- </h3>
+            <h3 style="font-size:10px;">----- vs ----- </h3>
+        </div>
+        <div class="container">
+           <h2>Thursday 30/01/2025</h2>
+            <h3 style="font-size:10px;">Paykan Fc vs Palayesh over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Zalgiris utd vs Hegelmann over 2.5<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#FF0000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></h3>
+            <h3 style="font-size:10px;">Ethio Electric vs Adigrat under 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Chennaiyin vs Kerala BTS <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+        </div>
+        <div class="container">
+           <h2>Friday 24/01/2025</h2>
+            <h3 style="font-size:10px;">Torino vs Calcio under 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#FF0000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></h3>
+            <h3 style="font-size:10px;">Auxerre vs Saint-etienne BTS <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Graafschap vs Emmen over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Caen vs Guingam under 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Lucchese vs Ascol over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+        </div>
+        <div class="container">
+            <h2>Saturday 25/01/2025</h2>
+            <h3 style="font-size:10px;">Luqueno vs Ypane under 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Albion vs De Santa Fe over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Alacranes vs Leones Negros over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg></h3>
+            <h3 style="font-size:10px;">Cimarrones vs Los Cabos over 2.5 <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#00FF00"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg>  </h3>
+        </div>
+    </div>
+<div class="quote">
+<h1 style="font-size:40px;">"</h1>
+<h1 style="color:green;">SUPPORT OUR WORK VIA MPESA.</h1>
+<button>
+<h1 style=" text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 60px #00f;">0768730914</h1>
+</button>
+
+</div>
+</body>
+</html>
